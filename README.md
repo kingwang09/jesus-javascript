@@ -1,0 +1,2 @@
+# jesus-typescript
+learn typescript
