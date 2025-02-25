@@ -25,5 +25,5 @@ const { removeText } = require('./novita.utils');
   const result = await removeText(inputBuffer);
   await promisify(fs.writeFile)('images/final_novita_remove_text.png', result);
 
-  console.log(response.data);
+  console.log('remove text completed..');
 })();
